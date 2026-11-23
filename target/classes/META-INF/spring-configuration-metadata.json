@@ -1,0 +1,16 @@
+{
+  "groups": [],
+  "properties": [
+    {
+      "name": "databaseInit",
+      "type": "java.lang.Boolean",
+      "description": "初始化資料庫"
+    },
+    {
+      "name": "jwt.secret",
+      "type": "java.lang.String",
+      "description": "A description for 'jwt.secret'"
+    }
+  ],
+  "hints": []
+}

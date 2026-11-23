@@ -1,0 +1,20 @@
+eleploCore.url: http://localhost:5580/eleplo
+tcp:
+  server:
+    port: 5090
+#以下為暫時性
+#eleploCore.url: http://www.eleplo.com:5580/eleplo
+logging:
+  file:
+    name: eleplo-parse.log
+  level:
+    root: info
+server:
+   http2:
+     enabled: true # 啟用http2
+   servlet:
+    context-path: /eleplo
+   port: 15566
+ 
+http: 5566
+

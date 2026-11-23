@@ -1,0 +1,19 @@
+FROM maven:3.8-eclipse-temurin-11
+
+RUN useradd -m appuser && mkdir /app && chown appuser:appuser /app
+
+USER appuser
+WORKDIR /app
+
+ENV MAVEN_CONFIG=/home/appuser/.m2
+ENV MAVEN_OPTS="-Dmaven.repo.local=/home/appuser/.m2/repository"
+
+COPY --chown=appuser:appuser pom.xml ./
+
+RUN mvn dependency:go-offline -B
+
+COPY --chown=appuser:appuser . .
+
+EXPOSE 5566 15566
+
+CMD ["mvn", "spring-boot:run", "-Dspring-boot.run.profiles=dev", "-Dspring-boot.run.jvmArguments=-Xmx512m --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Dspring.devtools.restart.enabled=false"]

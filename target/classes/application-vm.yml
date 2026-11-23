@@ -1,0 +1,18 @@
+eleploCore.url: http://localhost:5580/eleplo
+logging:
+  file:
+    name: eleplo-parse.log
+  level:
+    root: info
+server:
+  http2:
+    enabled: true # 啟用http2
+  servlet:
+    context-path: /eleplo
+  port: 15566
+  ssl: 
+    key-store: /etc/letsencrypt/live/eleplo.com/keystore.p12
+    key-store-password: eleplo3345678
+    key-store-type: PKCS12
+    keyAlias: tomcat
+http: 5566

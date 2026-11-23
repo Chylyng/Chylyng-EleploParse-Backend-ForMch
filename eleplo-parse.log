@@ -1,0 +1,179 @@
+2026-09-30 16:18:33.587  INFO 87 --- [restartedMain] com.chylyng.EleploApplication            : Starting EleploApplication using Java 11.0.17 on 99b11225f889 with PID 87 (/app/target/classes started by root in /app)
+2026-09-30 16:18:33.624  INFO 87 --- [restartedMain] com.chylyng.EleploApplication            : The following 1 profile is active: "prod"
+2026-09-30 16:18:33.959  INFO 87 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-30 16:18:33.961  INFO 87 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-30 16:18:39.517  INFO 87 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 15566 (http) 5566 (http)
+2026-09-30 16:18:39.581  INFO 87 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-30 16:18:39.585  INFO 87 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-09-30 16:18:39.847  INFO 87 --- [restartedMain] o.a.c.c.C.[.[localhost].[/eleplo]        : Initializing Spring embedded WebApplicationContext
+2026-09-30 16:18:39.849  INFO 87 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5886 ms
+2026-09-30 16:18:40.638  INFO 87 --- [restartedMain] c.c.g.controller.GatewayDataController   : [FONT] 成功載入自訂字型: DFKai-SB
+2026-09-30 16:18:43.127  INFO 87 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-09-30 16:18:43.260  INFO 87 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 15566 (http) 5566 (http) with context path '/eleplo'
+2026-09-30 16:18:43.308  INFO 87 --- [restartedMain] com.chylyng.EleploApplication            : Started EleploApplication in 12.321 seconds (JVM running for 13.957)
+2026-09-30 16:18:43.326  INFO 87 --- [tcp-accept-thread] c.c.receiver.Nfg01Tcp.TcpServerRunner    : ========================================
+2026-09-30 16:18:43.340  INFO 87 --- [tcp-accept-thread] c.c.receiver.Nfg01Tcp.TcpServerRunner    :  TCP Server 已啟動,監聽 Port: 5090
+2026-09-30 16:18:43.349  INFO 87 --- [tcp-accept-thread] c.c.receiver.Nfg01Tcp.TcpServerRunner    :  等待 Gateway 設備連線中...
+2026-09-30 16:18:43.353  INFO 87 --- [tcp-accept-thread] c.c.receiver.Nfg01Tcp.TcpServerRunner    : ========================================
+2026-10-02 09:06:28.367  INFO 4940 --- [restartedMain] com.chylyng.EleploApplication            : Starting EleploApplication using Java 11.0.13 on LAPTOP-MQ0BRD1R with PID 4940 (C:\Spring boots\git\Chylyng-EleploParse-Backend-ForAiKLee\target\classes started by ucer in C:\Spring boots\git\Chylyng-EleploParse-Backend-ForAiKLee)
+2026-10-02 09:06:28.368  INFO 4940 --- [restartedMain] com.chylyng.EleploApplication            : The following 1 profile is active: "dev"
+2026-10-02 09:06:28.407  INFO 4940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-02 09:06:28.408  INFO 4940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-02 09:06:29.451  INFO 4940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 15566 (http) 5566 (http)
+2026-10-02 09:06:29.468  INFO 4940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-02 09:06:29.468  INFO 4940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-10-02 09:06:29.535  INFO 4940 --- [restartedMain] o.a.c.c.C.[.[localhost].[/eleplo]        : Initializing Spring embedded WebApplicationContext
+2026-10-02 09:06:29.536  INFO 4940 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1127 ms
+2026-10-02 09:06:29.875  INFO 4940 --- [restartedMain] c.c.g.controller.GatewayDataController   : [FONT] 成功載入自訂字型: 標楷體
+2026-10-02 09:06:30.747  INFO 4940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-10-02 09:06:30.780  INFO 4940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 15566 (http) 5566 (http) with context path '/eleplo'
+2026-10-02 09:06:30.788  INFO 4940 --- [restartedMain] com.chylyng.EleploApplication            : Started EleploApplication in 2.826 seconds (JVM running for 4.048)
+2026-10-02 09:06:30.792  INFO 4940 --- [tcp-accept-thread] c.c.receiver.Nfg01Tcp.TcpServerRunner    : ========================================
+2026-10-02 09:06:30.793  INFO 4940 --- [tcp-accept-thread] c.c.receiver.Nfg01Tcp.TcpServerRunner    :  TCP Server 已啟動,監聽 Port: 5090
+2026-10-02 09:06:30.794  INFO 4940 --- [tcp-accept-thread] c.c.receiver.Nfg01Tcp.TcpServerRunner    :  等待 Gateway 設備連線中...
+2026-10-02 09:06:30.795  INFO 4940 --- [tcp-accept-thread] c.c.receiver.Nfg01Tcp.TcpServerRunner    : ========================================
+2026-10-02 09:06:40.541  INFO 4940 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-10-02 09:06:41.127  INFO 4940 --- [RMI TCP Connection(2)-127.0.0.1] c.c.receiver.Nfg01Tcp.TcpServerRunner    : 正在關閉 TCP Server...
+2026-10-02 09:08:31.028  INFO 6960 --- [restartedMain] com.chylyng.EleploApplication            : Starting EleploApplication using Java 11.0.13 on LAPTOP-MQ0BRD1R with PID 6960 (C:\Spring boots\git\Chylyng-EleploParse-Backend-ForAiKLee\target\classes started by ucer in C:\Spring boots\git\Chylyng-EleploParse-Backend-ForAiKLee)
+2026-10-02 09:08:31.029  INFO 6960 --- [restartedMain] com.chylyng.EleploApplication            : The following 1 profile is active: "dev"
+2026-10-02 09:08:31.068  INFO 6960 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-02 09:08:31.068  INFO 6960 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-02 09:08:32.024  INFO 6960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 15566 (http) 5566 (http)
+2026-10-02 09:08:32.037  INFO 6960 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-02 09:08:32.037  INFO 6960 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-10-02 09:08:32.116  INFO 6960 --- [restartedMain] o.a.c.c.C.[.[localhost].[/eleplo]        : Initializing Spring embedded WebApplicationContext
+2026-10-02 09:08:32.116  INFO 6960 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1047 ms
+2026-10-02 09:08:32.249  INFO 6960 --- [restartedMain] c.c.g.controller.GatewayDataController   : [FONT] 成功載入自訂字型: 標楷體
+2026-10-02 09:08:32.690  INFO 6960 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-10-02 09:08:32.721  INFO 6960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 15566 (http) 5566 (http) with context path '/eleplo'
+2026-10-02 09:08:32.730  INFO 6960 --- [restartedMain] com.chylyng.EleploApplication            : Started EleploApplication in 2.094 seconds (JVM running for 2.971)
+2026-10-02 09:08:32.733  INFO 6960 --- [tcp-accept-thread] c.c.receiver.Nfg01Tcp.TcpServerRunner    : ========================================
+2026-10-02 09:08:32.735  INFO 6960 --- [tcp-accept-thread] c.c.receiver.Nfg01Tcp.TcpServerRunner    :  TCP Server 已啟動,監聽 Port: 5090
+2026-10-02 09:08:32.736  INFO 6960 --- [tcp-accept-thread] c.c.receiver.Nfg01Tcp.TcpServerRunner    :  等待 Gateway 設備連線中...
+2026-10-02 09:08:32.737  INFO 6960 --- [tcp-accept-thread] c.c.receiver.Nfg01Tcp.TcpServerRunner    : ========================================
+2026-10-02 09:09:17.374  INFO 6960 --- [Thread-5] c.c.receiver.Nfg01Tcp.TcpServerRunner    : 正在關閉 TCP Server...
+2026-10-02 09:09:17.465  INFO 6960 --- [restartedMain] com.chylyng.EleploApplication            : Starting EleploApplication using Java 11.0.13 on LAPTOP-MQ0BRD1R with PID 6960 (C:\Spring boots\git\Chylyng-EleploParse-Backend-ForAiKLee\target\classes started by ucer in C:\Spring boots\git\Chylyng-EleploParse-Backend-ForAiKLee)
+2026-10-02 09:09:17.465  INFO 6960 --- [restartedMain] com.chylyng.EleploApplication            : The following 1 profile is active: "dev"
+2026-10-02 09:09:17.770  INFO 6960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 15566 (http) 5566 (http)
+2026-10-02 09:09:17.772  INFO 6960 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-02 09:09:17.772  INFO 6960 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-10-02 09:09:17.789  INFO 6960 --- [restartedMain] o.a.c.c.C.[.[localhost].[/eleplo]        : Initializing Spring embedded WebApplicationContext
+2026-10-02 09:09:17.790  INFO 6960 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 323 ms
+2026-10-02 09:09:17.841  INFO 6960 --- [restartedMain] c.c.g.controller.GatewayDataController   : [FONT] 成功載入自訂字型: 標楷體
+2026-10-02 09:09:17.927  INFO 6960 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-10-02 09:09:17.940  INFO 6960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 15566 (http) 5566 (http) with context path '/eleplo'
+2026-10-02 09:09:17.944  INFO 6960 --- [restartedMain] com.chylyng.EleploApplication            : Started EleploApplication in 0.514 seconds (JVM running for 48.185)
+2026-10-02 09:09:17.946  INFO 6960 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-02 09:09:18.261  INFO 6960 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-10-02 09:09:29.622  INFO 2708 --- [restartedMain] com.chylyng.EleploApplication            : Starting EleploApplication using Java 11.0.13 on LAPTOP-MQ0BRD1R with PID 2708 (C:\Spring boots\git\Chylyng-EleploParse-Backend-ForAiKLee\target\classes started by ucer in C:\Spring boots\git\Chylyng-EleploParse-Backend-ForAiKLee)
+2026-10-02 09:09:29.624  INFO 2708 --- [restartedMain] com.chylyng.EleploApplication            : The following 1 profile is active: "dev"
+2026-10-02 09:09:29.668  INFO 2708 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-02 09:09:29.668  INFO 2708 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-02 09:09:30.664  INFO 2708 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 15566 (http) 5566 (http)
+2026-10-02 09:09:30.677  INFO 2708 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-02 09:09:30.678  INFO 2708 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-10-02 09:09:30.746  INFO 2708 --- [restartedMain] o.a.c.c.C.[.[localhost].[/eleplo]        : Initializing Spring embedded WebApplicationContext
+2026-10-02 09:09:30.747  INFO 2708 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1078 ms
+2026-10-02 09:09:30.877  INFO 2708 --- [restartedMain] c.c.g.controller.GatewayDataController   : [FONT] 成功載入自訂字型: 標楷體
+2026-10-02 09:09:31.346  INFO 2708 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-10-02 09:09:31.381  INFO 2708 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 15566 (http) 5566 (http) with context path '/eleplo'
+2026-10-02 09:09:31.390  INFO 2708 --- [restartedMain] com.chylyng.EleploApplication            : Started EleploApplication in 2.164 seconds (JVM running for 3.11)
+2026-10-02 09:12:38.448  INFO 2708 --- [restartedMain] com.chylyng.EleploApplication            : Starting EleploApplication using Java 11.0.13 on LAPTOP-MQ0BRD1R with PID 2708 (C:\Spring boots\git\Chylyng-EleploParse-Backend-ForAiKLee\target\classes started by ucer in C:\Spring boots\git\Chylyng-EleploParse-Backend-ForAiKLee)
+2026-10-02 09:12:38.449  INFO 2708 --- [restartedMain] com.chylyng.EleploApplication            : The following 1 profile is active: "dev"
+2026-10-02 09:12:49.372  INFO 7564 --- [main] com.chylyng.EleploApplication            : Starting EleploApplication using Java 11.0.13 on LAPTOP-MQ0BRD1R with PID 7564 (C:\Spring boots\git\Chylyng-EleploParse-Backend-ForAiKLee\target\classes started by ucer in C:\Spring boots\git\Chylyng-EleploParse-Backend-ForAiKLee)
+2026-10-02 09:12:49.375  INFO 7564 --- [main] com.chylyng.EleploApplication            : The following 1 profile is active: "dev"
+2026-10-02 09:12:50.224  INFO 7564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 15566 (http) 5566 (http)
+2026-10-02 09:12:50.238  INFO 7564 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-02 09:12:50.238  INFO 7564 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-10-02 09:12:50.343  INFO 7564 --- [main] o.a.c.c.C.[.[localhost].[/eleplo]        : Initializing Spring embedded WebApplicationContext
+2026-10-02 09:12:50.344  INFO 7564 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 932 ms
+2026-10-02 09:12:50.494  INFO 7564 --- [main] c.c.g.controller.GatewayDataController   : [FONT] 成功載入自訂字型: 標楷體
+2026-10-02 09:12:50.893  INFO 7564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 15566 (http) 5566 (http) with context path '/eleplo'
+2026-10-02 09:12:50.901  INFO 7564 --- [main] com.chylyng.EleploApplication            : Started EleploApplication in 1.927 seconds (JVM running for 2.736)
+2026-10-02 09:18:24.707  INFO 5248 --- [main] com.chylyng.EleploApplication            : Starting EleploApplication using Java 11.0.13 on LAPTOP-MQ0BRD1R with PID 5248 (C:\Spring boots\git\Chylyng-EleploParse-Backend-ForAiKLee\target\classes started by ucer in C:\Spring boots\git\Chylyng-EleploParse-Backend-ForAiKLee)
+2026-10-02 09:18:24.710  INFO 5248 --- [main] com.chylyng.EleploApplication            : The following 1 profile is active: "dev"
+2026-10-02 09:18:25.588  INFO 5248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 15566 (http) 5566 (http)
+2026-10-02 09:18:25.603 ERROR 5248 --- [main] org.apache.catalina.util.LifecycleBase   : Failed to initialize component [Connector["http-nio-5566"]]
+
+org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1039) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:161) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:489) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123) ~[spring-boot-2.5.14.jar:2.5.14]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104) ~[spring-boot-2.5.14.jar:2.5.14]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:456) ~[spring-boot-2.5.14.jar:2.5.14]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:204) ~[spring-boot-2.5.14.jar:2.5.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:182) ~[spring-boot-2.5.14.jar:2.5.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:160) ~[spring-boot-2.5.14.jar:2.5.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.14.jar:2.5.14]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780) ~[spring-boot-2.5.14.jar:2.5.14]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:453) ~[spring-boot-2.5.14.jar:2.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:343) ~[spring-boot-2.5.14.jar:2.5.14]
+	at com.chylyng.EleploApplication.main(EleploApplication.java:17) ~[classes/:na]
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.bind(Net.java:455) ~[na:na]
+	at java.base/sun.nio.ch.Net.bind(Net.java:447) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227) ~[na:na]
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1332) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1345) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	... 19 common frames omitted
+
+2026-10-02 09:18:25.605  INFO 5248 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-02 09:18:25.606  INFO 5248 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-10-02 09:18:25.702  INFO 5248 --- [main] o.a.c.c.C.[.[localhost].[/eleplo]        : Initializing Spring embedded WebApplicationContext
+2026-10-02 09:18:25.702  INFO 5248 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 957 ms
+2026-10-02 09:18:25.846  INFO 5248 --- [main] c.c.g.controller.GatewayDataController   : [FONT] 成功載入自訂字型: 標楷體
+2026-10-02 09:18:26.237  WARN 5248 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 15566 is already in use
+2026-10-02 09:18:26.240  INFO 5248 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-10-02 09:18:26.251  INFO 5248 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2026-10-02 09:18:26.263 ERROR 5248 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 15566 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 15566 or configure this application to listen on another port.
+
+2026-10-02 09:18:29.248  INFO 7564 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-10-02 09:18:38.495  INFO 19600 --- [main] com.chylyng.EleploApplication            : Starting EleploApplication using Java 11.0.13 on LAPTOP-MQ0BRD1R with PID 19600 (C:\Spring boots\git\Chylyng-EleploParse-Backend-ForAiKLee\target\classes started by ucer in C:\Spring boots\git\Chylyng-EleploParse-Backend-ForAiKLee)
+2026-10-02 09:18:38.497  INFO 19600 --- [main] com.chylyng.EleploApplication            : The following 1 profile is active: "dev"
+2026-10-02 09:18:39.332  INFO 19600 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 15566 (http) 5566 (http)
+2026-10-02 09:18:39.344  INFO 19600 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-02 09:18:39.344  INFO 19600 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-10-02 09:18:39.438  INFO 19600 --- [main] o.a.c.c.C.[.[localhost].[/eleplo]        : Initializing Spring embedded WebApplicationContext
+2026-10-02 09:18:39.439  INFO 19600 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 907 ms
+2026-10-02 09:18:39.579  INFO 19600 --- [main] c.c.g.controller.GatewayDataController   : [FONT] 成功載入自訂字型: 標楷體
+2026-10-02 09:18:39.958  INFO 19600 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 15566 (http) 5566 (http) with context path '/eleplo'
+2026-10-02 09:18:39.968  INFO 19600 --- [main] com.chylyng.EleploApplication            : Started EleploApplication in 1.864 seconds (JVM running for 2.652)
+2026-10-02 09:23:15.682  INFO 19600 --- [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-10-02 09:25:08.414  INFO 28696 --- [main] com.chylyng.EleploApplication            : Starting EleploApplication using Java 11.0.13 on LAPTOP-MQ0BRD1R with PID 28696 (C:\Spring boots\git\Chylyng-EleploParse-Backend-ForAiKLee\target\classes started by ucer in C:\Spring boots\git\Chylyng-EleploParse-Backend-ForAiKLee)
+2026-10-02 09:25:08.416  INFO 28696 --- [main] com.chylyng.EleploApplication            : The following 1 profile is active: "dev"
+2026-10-02 09:25:09.363  INFO 28696 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 15566 (http) 5566 (http)
+2026-10-02 09:25:09.377  INFO 28696 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-02 09:25:09.378  INFO 28696 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-10-02 09:25:09.477  INFO 28696 --- [main] o.a.c.c.C.[.[localhost].[/eleplo]        : Initializing Spring embedded WebApplicationContext
+2026-10-02 09:25:09.477  INFO 28696 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1007 ms
+2026-10-02 09:25:09.608  INFO 28696 --- [main] c.c.g.controller.GatewayDataController   : [FONT] 成功載入自訂字型: 標楷體
+2026-10-02 09:25:10.047  INFO 28696 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 15566 (http) 5566 (http) with context path '/eleplo'
+2026-10-02 09:25:10.056  INFO 28696 --- [main] com.chylyng.EleploApplication            : Started EleploApplication in 2.088 seconds (JVM running for 3.184)
+2026-10-02 11:34:34.017  INFO 28696 --- [RMI TCP Connection(133)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
